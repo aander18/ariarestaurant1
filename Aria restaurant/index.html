@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aria Cocktail Bar & Restaurant - Esperienza culinaria d'eccellenza a Villasimius. Pinsa, burger, ristorante, steak house e cocktail bar.">
+    <title>Aria Cocktail Bar & Restaurant | Villasimius</title>
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Aria Cocktail Bar & Restaurant | Villasimius">
+    <meta property="og:description" content="Esperienza culinaria d'eccellenza nel cuore di Villasimius. Tre piani, tre esperienze: Pinsa & Burger, Ristorante, Steak House.">
+    <meta property="og:image" content="images/hero-drone.png">
+    <meta property="og:url" content="">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="icon" type="image/png" href="images/aria-logo-ufficiale.png">
+    <link rel="apple-touch-icon" href="images/aria-logo-ufficiale.png">
+
+    <link rel="preload" as="image" href="images/hero-drone.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#home" class="logo" aria-label="Torna alla Home" title="Torna alla Home">
+                    <img class="logo-img" src="images/aria-logo-ufficiale.png" alt="Aria Restaurant">
+                    <span class="logo-text">Aria Restaurant</span>
+                </a>
+                
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="navMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">Chi Siamo</a></li>
+                    <li><a href="#floors" class="nav-link">Le Sale</a></li>
+                    <li><a href="#menu" class="nav-link">Menu</a></li>
+                    <li><a href="#contact" class="nav-link">Contatti</a></li>
+                    <li><a href="#contact" class="btn btn-primary">Prenota</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title fade-in">Aria Cocktail Bar & Restaurant</h1>
+            <p class="hero-subtitle fade-in">Dove il gusto diventa arte</p>
+            <div class="hero-buttons fade-in">
+                <a href="#menu" class="btn btn-primary">Scopri il Menu</a>
+                <a href="#contact" class="btn btn-secondary">Prenota Ora</a>
+            </div>
+        </div>
+        <div class="scroll-indicator" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image fade-in-scroll">
+                    <img class="about-story-img" src="images/aria-storia.jpg" alt="Aria - La nostra storia">
+                </div>
+                <div class="about-content fade-in-scroll">
+                    <span class="section-label">La Nostra Storia</span>
+                    <h2 class="section-title">Un'esperienza culinaria unica a Villasimius</h2>
+                    <p>Aria nasce a Villasimius, dove la Sardegna è luce, vento e profumo di mare. Qui trasformiamo la tradizione in un racconto contemporaneo: ingredienti locali, tecnica pulita e dettagli che sorprendono al primo assaggio.</p>
+                    <p>Un viaggio tra <strong>mare e terra</strong>: pescato, erbe aromatiche, carni selezionate e verdure di stagione si incontrano in piatti eleganti e intensi. Ogni portata è un panorama dell’isola, ogni cocktail un invito a scoprire nuovi equilibri.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 3h10v4a5 5 0 0 1-5 5 5 5 0 0 1-5-5V3Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                                    <path d="M12 12v7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                                    <path d="M9 21h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <h4>Cantina Selezionata</h4>
+                            <p>Oltre 100 etichette italiane e internazionali</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4 4h16l-8 8-8-8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                                    <path d="M12 12v7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                                    <path d="M9 21h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                                    <path d="M16 3l2 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <h4>Cocktail d'Autore</h4>
+                            <p>Creazioni uniche dei nostri mixologist</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3 16c2 0 2-2 4-2s2 2 4 2 2-2 4-2 2 2 4 2 2-2 2-2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M3 20c2 0 2-2 4-2s2 2 4 2 2-2 4-2 2 2 4 2 2-2 2-2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+                                </svg>
+                            </div>
+                            <h4>Atmosfera Mediterranea</h4>
+                            <p>Profumi di mare, energia dell’isola</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="floors" class="floors">
+        <div class="container">
+            <div class="section-header fade-in-scroll">
+                <span class="section-label">Le Nostre Sale</span>
+                <h2 class="section-title">Tre piani, tre esperienze</h2>
+            </div>
+
+            <div class="floors-grid">
+                <article class="floor-card fade-in-scroll">
+                    <div class="floor-media">
+                        <img src="images/piano-terra-pinsa-burger.png" alt="Piano Terra - Pinsa e Burger">
+                    </div>
+                    <div class="floor-content">
+                        <span class="floor-kicker">Piano Terra</span>
+                        <h3>Pinsa & Burger</h3>
+                        <p>L’ingresso perfetto ad Aria: pinsa fragrante, burger gourmet e ritmo da cocktail bar. Informale, veloce, irresistibile.</p>
+                        <div class="floor-cta">
+                            <a class="btn btn-primary" href="#prenota">Prenota</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="floor-card fade-in-scroll">
+                    <div class="floor-media">
+                        <img src="images/primo-piano-ristorante.png" alt="Primo Piano - Ristorante">
+                    </div>
+                    <div class="floor-content">
+                        <span class="floor-kicker">Primo Piano</span>
+                        <h3>Ristorante</h3>
+                        <p>Eleganza e comfort: servizio curato e piatti che valorizzano mare e terra. La scelta giusta quando vuoi concederti una vera cena.</p>
+                        <div class="floor-cta">
+                            <a class="btn btn-primary" href="#prenota">Prenota</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="floor-card fade-in-scroll">
+                    <div class="floor-media">
+                        <img src="images/secondo-piano-griglieria.png" alt="Secondo Piano - Steak House">
+                    </div>
+                    <div class="floor-content">
+                        <span class="floor-kicker">Secondo Piano</span>
+                        <h3>Steak House</h3>
+                        <p>Qui parla la brace: tagli selezionati, cotture precise e sapori pieni. Per chi ama la griglia fatta come si deve.</p>
+                        <div class="floor-cta">
+                            <a class="btn btn-primary" href="#prenota">Prenota</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header fade-in-scroll">
+                <span class="section-label">Il Nostro Menu</span>
+                <h2 class="section-title">Scansiona il QR Code</h2>
+            </div>
+
+            <div class="qr-wrap fade-in-scroll">
+                <div class="qr-card">
+                    <div class="qr-media" aria-label="QR Code Menu">
+                        <a class="qr-link" href="https://webapp.alvolo.app/h000010485" target="_blank" rel="noopener noreferrer" aria-label="Apri il menu" title="Apri il menu">
+                            <img class="qr-img" src="images/frame.svg" alt="QR Code Menu">
+                        </a>
+                    </div>
+                    <div class="qr-content">
+                        <h3>Menu digitale</h3>
+                        <p>Inquadra il QR con la fotocamera per aprire il menu aggiornato in tempo reale.</p>
+                        <div class="qr-actions">
+                            <a class="btn btn-primary" href="#prenota">Prenota su WhatsApp</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header fade-in-scroll">
+                <span class="section-label">Contatti</span>
+                <h2 class="section-title">Vieni a Trovarci</h2>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info fade-in-scroll">
+                    <div class="info-card">
+                        <h3>📍 Indirizzo</h3>
+                        <p>
+                            <a href="https://www.google.com/maps/place/Aria+Ristorante+Villasimius+%7C+Pinseria+%7C+Hamburgeria+%7C+Cocktail+bar/@39.1403689,9.518953,17z/data=!4m15!1m8!3m7!1s0x12e0c3030cdf2d63:0x550e2ec15d781869!2sAria+Ristorante+Villasimius+%7C+Pinseria+%7C+Hamburgeria+%7C+Cocktail+bar!8m2!3d39.1403648!4d9.5215279!10e1!16s%2Fg%2F11krh4_56y!3m5!1s0x12e0c3030cdf2d63:0x550e2ec15d781869!8m2!3d39.1403648!4d9.5215279!16s%2Fg%2F11krh4_56y?entry=ttu&g_ep=EgoyMDI2MDIwNC4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D" target="_blank" rel="noopener noreferrer">
+                                Via del Mare, 56<br>09049 Villasimius (SU)
+                            </a>
+                        </p>
+                    </div>
+                    <div class="info-card">
+                        <h3>⏰ Orari</h3>
+                        <p><strong>Maggio - Settembre:</strong> 18:00 - 01:00</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>📞 Contatti</h3>
+                        <p>Telefono / WhatsApp: <a href="tel:+393343576688">+39 334 357 6688</a><br>
+                        Instagram: <a href="https://instagram.com/aria_villasimius" target="_blank" rel="noopener noreferrer">@aria_villasimius</a><br>
+                        Email: <a href="mailto:amministrazione@hfmvillasimius.it">amministrazione@hfmvillasimius.it</a></p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://instagram.com/aria_villasimius" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                        <a href="https://wa.me/393343576688" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form fade-in-scroll" id="contactForm" novalidate>
+                    <span id="prenota" aria-hidden="true"></span>
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" required placeholder="Il tuo nome">
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="La tua email" autocomplete="email">
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefono</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="Il tuo numero" autocomplete="tel">
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Data</label>
+                        <input type="date" id="date" name="date" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Orario</label>
+                        <select id="time" name="time" required>
+                            <option value="">Seleziona orario</option>
+                            <option value="18:00">18:00</option>
+                            <option value="18:30">18:30</option>
+                            <option value="19:00">19:00</option>
+                            <option value="19:30">19:30</option>
+                            <option value="20:00">20:00</option>
+                            <option value="20:30">20:30</option>
+                            <option value="21:00">21:00</option>
+                            <option value="21:30">21:30</option>
+                            <option value="22:00">22:00</option>
+                            <option value="22:30">22:30</option>
+                            <option value="23:00">23:00</option>
+                            <option value="23:30">23:30</option>
+                            <option value="00:00">00:00</option>
+                        </select>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="guests">Ospiti</label>
+                        <select id="guests" name="guests" required>
+                            <option value="">Numero ospiti</option>
+                            <option value="1">1 persona</option>
+                            <option value="2">2 persone</option>
+                            <option value="3">3 persone</option>
+                            <option value="4">4 persone</option>
+                            <option value="5">5 persone</option>
+                            <option value="6+">6+ persone</option>
+                        </select>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group full-width">
+                        <textarea id="message" name="message" rows="4" placeholder="Note o richieste speciali (opzionale)"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">
+                        Prenota su WhatsApp
+                    </button>
+                    <p class="form-note">Verrai reindirizzato a WhatsApp per confermare la prenotazione</p>
+                </form>
+            </div>
+
+            <div class="map-container fade-in-scroll">
+                <iframe 
+                    src="https://www.google.com/maps?output=embed&q=39.1403648,9.5215279(Aria%20Ristorante%20Villasimius)" 
+                    width="100%" 
+                    height="400" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <div class="map-actions">
+                    <a class="btn btn-secondary" href="https://www.google.com/maps/place/Aria+Ristorante+Villasimius+%7C+Pinseria+%7C+Hamburgeria+%7C+Cocktail+bar/@39.1403689,9.518953,17z/data=!4m15!1m8!3m7!1s0x12e0c3030cdf2d63:0x550e2ec15d781869!2sAria+Ristorante+Villasimius+%7C+Pinseria+%7C+Hamburgeria+%7C+Cocktail+bar!8m2!3d39.1403648!4d9.5215279!10e1!16s%2Fg%2F11krh4_56y!3m5!1s0x12e0c3030cdf2d63:0x550e2ec15d781869!8m2!3d39.1403648!4d9.5215279!16s%2Fg%2F11krh4_56y?entry=ttu&g_ep=EgoyMDI2MDIwNC4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D" target="_blank" rel="noopener noreferrer">Apri su Google Maps</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <a href="#home" class="footer-logo-link" aria-label="Torna alla Home" title="Torna alla Home">
+                            <img class="footer-logo-img" src="images/aria-logo-ufficiale.png" alt="Aria Restaurant">
+                            <h3>Aria Restaurant</h3>
+                        </a>
+                    </div>
+                    <p>Esperienza culinaria d'eccellenza nel cuore di Villasimius</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Link Rapidi</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Chi Siamo</a></li>
+                        <li><a href="#floors">Le Sale</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#contact">Contatti</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contattaci</h4>
+                    <p>Via del Mare, 56<br>09049 Villasimius (SU)</p>
+                    <p>Telefono / WhatsApp: +39 334 357 6688</p>
+                    <p>Email: <a href="mailto:amministrazione@hfmvillasimius.it" style="color:#ffffff">amministrazione@hfmvillasimius.it</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Aria Restaurant. Tutti i diritti riservati.</p>
+                <p class="company-data">HFM Villasimius SRL V. del Mare 56 P.IVA 03893550925</p>
+            </div>
+            <div class="made-by">
+                <p>Realizzato da</p>
+                <div class="made-by-content">
+                    <a href="https://instagram.com/anderwebstudio" target="_blank" rel="noopener noreferrer" aria-label="Ander Digital Studio" title="Ander Digital Studio">
+                        <img class="made-by-logo" src="images/ander-digital-studio.png" alt="Ander Digital Studio">
+                    </a>
+                    <a class="made-by-ig" href="https://instagram.com/anderwebstudio" target="_blank" rel="noopener noreferrer">
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        <span>@anderwebstudio</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
